@@ -12,8 +12,20 @@
   ],
   "routes": [
     {
-      "src": "/src/index.ts",
-      "dest": "/server/src/$1"
+      "src": "/allTodos",
+      "dest": "/server/src/index.ts"
+    },
+    {
+      "src": "/createTodo",
+      "dest": "/server/src/index.ts"
+    },
+    {
+      "src": "/editTodo/:id",
+      "dest": "/server/src/index.ts"
+    },
+    {
+      "src": "/deleteTodo/:id",
+      "dest": "/server/src/index.ts"
     }
   ]
 }
