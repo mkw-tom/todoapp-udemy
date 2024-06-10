@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": [
+  "build": [
     {
       "src": "client/package.json",
       "use": "@vercel/next"
