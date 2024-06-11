@@ -7,13 +7,7 @@
     },
     {
       "src": "server/src/index.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "server/prisma/schema/prisma",
-          "server/prisma/migrations/**"
-        ]
-      }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
