@@ -9,7 +9,7 @@
       "src": "server/src/index.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFIles": [
+        "includeFiles": [
           "server/prisma/schema/prisma",
           "server/prisma/migrations/**"
         ]
